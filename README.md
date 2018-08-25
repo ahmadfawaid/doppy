@@ -1,4 +1,4 @@
 # Doppy
 Budget &amp; finance manager - Landing page
 
-https://ahmadfawaid.github.io/works/doppy
+https://ahmadfawaid.github.io/doppy/dist/
