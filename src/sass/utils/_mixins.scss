@@ -1,0 +1,39 @@
+// Media Queries
+@mixin extra-large-size-screen {
+  @media (max-width: #{$screen-extra-large}) {
+    @content;
+  }
+}
+
+@mixin large-size-screen {
+  @media (max-width: #{$screen-large}) {
+    @content;
+  }
+}
+
+@mixin medium-size-screen {
+  @media (max-width: #{$screen-medium}) {
+    @content;
+  }
+}
+
+@mixin small-size-screen {
+  @media (max-width: #{$screen-small}) {
+    @content;
+  }
+}
+
+@mixin extra-small-size-screen {
+  @media (max-width: #{$screen-extra-small}) {
+    @content;
+  }
+}
+
+// Clearfix
+@mixin clearfix {
+  &:after {
+      content: '';
+      display: table;
+      clear: both;
+  }
+}

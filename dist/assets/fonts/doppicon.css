@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'doppicon';
+  src:  url('../fonts/doppicon/doppicon.eot?ei1k4l');
+  src:  url('../fonts/doppicon/doppicon.eot?ei1k4l#iefix') format('embedded-opentype'),
+    url('../fonts/doppicon/doppicon.ttf?ei1k4l') format('truetype'),
+    url('../fonts/doppicon/doppicon.woff?ei1k4l') format('woff'),
+    url('../fonts/doppicon/doppicon.svg?ei1k4l#doppicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="di"], [class*=" di"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'doppicon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.di-bill:before {
+  content: "\e900";
+}
+.di-budget:before {
+  content: "\e901";
+}
+.di-checkmark:before {
+  content: "\e902";
+}
+.di-food:before {
+  content: "\e903";
+}
+.di-internet:before {
+  content: "\e904";
+}
+.di-overview:before {
+  content: "\e905";
+}
+.di-plane:before {
+  content: "\e906";
+}
+.di-play:before {
+  content: "\e90c";
+}
+.di-soc-fb:before {
+  content: "\e907";
+}
+.di-soc-in:before {
+  content: "\e908";
+}
+.di-soc-tw:before {
+  content: "\e909";
+}
+.di-tag:before {
+  content: "\e90a";
+}
+.di-transaction:before {
+  content: "\e90b";
+}

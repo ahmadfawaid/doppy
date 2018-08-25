@@ -1,0 +1,48 @@
+.testimonial-item {
+  width: 100%;
+  text-align: center;
+
+  .icon {
+    font-size: 40rem;
+    color: $color-blue;
+  }
+
+  .text {
+    font-family: $font-secondary;
+    font-style: italic;
+    font-size: 22rem;
+    line-height: 40px;
+    letter-spacing: 1px;
+    padding: 20px 0 24px;
+
+    @include medium-size-screen {
+      font-size: 18rem;
+      line-height: 36px;
+    }
+
+    @include small-size-screen {
+      font-size: 14rem;
+      line-height: 24px;
+    }
+  }
+
+  .user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-gray;
+
+    .pic, .name {
+      display: block;
+      margin: 0 10px;
+    }
+
+    .pic {
+      display: block;
+      width: 36px;
+      height: 36px;
+      border-radius: 100%;
+      box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1); 
+    }
+  }
+}

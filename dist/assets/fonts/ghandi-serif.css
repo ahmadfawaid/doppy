@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Gandhi Serif';
+  src: url('../fonts/ghandi-serif/GhandiSerif-Italic.woff2') format('woff2'),
+       url('../fonts/ghandi-serif/GhandiSerif-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}

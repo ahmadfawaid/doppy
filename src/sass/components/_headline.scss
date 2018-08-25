@@ -1,0 +1,36 @@
+.headline {
+  font-weight: $normal;
+  margin-bottom: 60px;
+  text-align: center;
+
+  @include medium-size-screen {
+    font-size: 28rem;
+  }
+
+  @include small-size-screen {
+    font-size: 24rem;
+  }
+
+  @include extra-small-size-screen {
+    font-size: 22rem;
+  }
+
+  &.-light {
+    font-weight: $light;
+  }
+
+  &.-medium {
+    font-weight: 700;
+  }
+
+  span {
+    display: block;
+    font-size: 12rem;
+    font-weight: $semi-bold;
+    line-height: 1em;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    color: $color-gray;
+    opacity: .7;
+  }
+}

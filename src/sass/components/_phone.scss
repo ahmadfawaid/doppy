@@ -1,0 +1,34 @@
+.phones {
+  & {
+    position: relative;
+    padding: 54px 0 0 54px;
+  }
+
+  > .item {
+    box-shadow: 14px 14px 20px 0px rgba(0, 0, 0, 0.3);
+    transition: ease-in 0.1s;
+    border-radius: 40px;
+
+    @include medium-size-screen {
+      max-width: 200px;
+      border-radius: 20px;
+    }
+  }
+
+  > .item.-front {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: $z-over-content;
+  }
+}
+
+.phones:hover {
+  > .item.-front {
+    transform: rotate(-5deg);
+  }
+
+  > .item.-back {
+    transform: rotate(5deg);
+  }
+}

@@ -1,0 +1,78 @@
+.floating-icon {
+  position: absolute;
+  width: auto;
+  text-align: center;
+  font-size: 28rem;
+  padding: 12px;
+  background: #fff;
+  border-radius: 100%;
+  box-shadow: 4px 7px 25px 0px rgba(0, 0, 0, 0.15); 
+  z-index: $z-over-control;
+  animation: floating 3s ease-in-out infinite;
+
+  @include medium-size-screen {
+    font-size: 22px;
+  }
+  
+  &.-food {
+    top: -50px;
+    right: -50px;
+    color: #fe6d3a;
+
+    @include small-size-screen {
+      top: -40px;
+      right: -30px;
+    }
+  }
+
+  &.-bill {
+    left: -30px;
+    top: 250px;
+    color: #1acf6b;
+    animation-delay: .5s;
+
+    @include large-size-screen {
+      left: -50px;
+      top: 270px;
+    }
+
+    @include small-size-screen {
+      top: 200px;
+      left: -40px;
+    }
+  }
+
+  &.-tag {
+    right: -100px;
+    top: 350px;
+    color: #7400eb;
+    animation-delay: 1s;
+
+    @include large-size-screen {
+      right: -70px;
+    }
+
+    @include small-size-screen {
+      right: -25px;
+    }
+  }
+
+  &.-plane {
+    left: 30px;
+    bottom: -50px;
+    color: #0074eb;
+    animation-delay: 1.5s;
+  }
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

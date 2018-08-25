@@ -1,0 +1,42 @@
+// Grid System Breakpoints - Screen Size
+$screen-extra-large: 1366px;
+$screen-large: 1024px;
+$screen-medium: 768px;
+$screen-small: 620px;
+$screen-extra-small: 330px;
+
+// Z-Index
+$z-over-content: 100;
+$z-over-control: 200;
+$z-over-page: 300;
+$z-over-screen: 400;
+$z-over-all: 500;
+
+// Colors
+$color-dark: #283448;
+$color-blue: #1da1f2;
+$color-green: #16c955;
+// $color-yellow: #ffac0d;
+$color-gray: #99a0ab;
+$color-smoke: #445377;
+$color-white: #f1f5fe;
+$color-black: #0a1221;
+$color-divider: #1a2743;
+
+// BG Colors
+$bg-dark: #0e1931;
+$bg-green: #16c955;
+$bg-green-light: rgba(19, 206, 103, .1);
+$bg-black: #0a1221;
+
+// Font Family
+$font-primary: 'Karla', sans-serif;
+$font-secondary: 'Ghandi Serif', serif;
+
+// Font Weight
+$light: 300;
+$normal: normal;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+$extra-bold: 800;

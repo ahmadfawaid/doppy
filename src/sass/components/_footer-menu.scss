@@ -1,0 +1,52 @@
+.footer-menu {
+  @include small-size-screen {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  &:nth-child(2) {
+    @include small-size-screen {
+      grid-column: 1/5;
+      grid-row: 1/2;
+    }
+  }
+  
+  &:nth-child(3) {
+    @include small-size-screen {
+      grid-column: 1/5;
+      grid-row: 2/3;
+    }
+  }
+
+  &:nth-child(4) {
+    @include small-size-screen {
+      grid-column: 1/5;
+      grid-row: 3/4;
+    }
+  }
+
+  &:nth-child(5) {
+    @include small-size-screen {
+      grid-column: 1/5;
+      grid-row: 4/5;
+    }
+  }
+
+  .heading {
+    font-size: 16rem;
+    line-height: 36px;
+    margin-bottom: 30px;
+  }
+
+  .item {
+    font-size: 14rem;
+    font-weight: $light;
+    color: $color-smoke;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+
+  .item:hover {
+    color: $color-white;
+  }
+}

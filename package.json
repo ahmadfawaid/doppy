@@ -1,0 +1,36 @@
+{
+  "name": "doppy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ahmad Nurfawaid",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "browser-sync": "latest",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "latest",
+    "gulp-babel": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-concat": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-jshint": "latest",
+    "gulp-notify": "latest",
+    "gulp-plumber": "latest",
+    "gulp-rename": "latest",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "^3.0.0",
+    "gulp-zip": "latest",
+    "jshint": "latest",
+    "jshint-stylish": "latest",
+    "run-sequence": "latest"
+  },
+  "dependencies": {
+    "npm": "^6.1.0"
+  }
+}
